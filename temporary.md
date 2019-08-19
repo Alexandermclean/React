@@ -85,7 +85,7 @@ function Comment(props) {
 
 var obj = {name: 'yyy', avatarUrl: 'zzz'}
 ReactDOM.render(
-  <Comment author={obj} />,
+  <Comment author={obj} />, // 用{}括起变量赋值给author属性
   document.getElementById('root')
 )
 ```
